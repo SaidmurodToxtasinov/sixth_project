@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container_bg {
+    background-image: url(./media/Rectangle\ 26.png);
+    background-size: 100%;
+    height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 86px;
+    border-bottom: 1px solid white;
+
+}
+
+nav>img {
+    width: 153px;
+    height: 46px;
+}
+
+nav ul:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul:nth-child(3) img {
+    width: 36px;
+    height: 36px;
+}
+
+main {
+    padding: 150px;
+}
+
+main section {
+    width: 636px;
+    height: auto;
+}
+
+main h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.musiq {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.musiq p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.bottom_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+    gap: 12px;
+}
+
+.bottom_cart {
+    width: 315px;
+    background: #8D86C9;
+    padding: 35px 35px;
+
+}
+
+.bottom_cart p {
+    font-family: sans-serif;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+
+.bottom_text_icoun {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    margin-top: 17px;
+}
+
+.bottom_cart .bottom_text_icoun h3 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.katta_div {
+    margin-top: 150px;
+    margin-left: 312px;
+    width: 1296px;
+    height: 500px;
+    border: 1px solid #f7ece1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.katta_div div:nth-child(1) {
+    background-image: url(./media/girl.jpg);
+    background-size: 100%;
+    height: 100vh;
+    width: 376px;
+    height: 450px;
+
+}
+
+.katta_div div:nth-child(2) {
+    background-image: url(./media/bal.jpg);
+    background-size: 66vh;
+    width: 376px;
+    height: 450px;
+}
+
+.katta_div div:nth-child(3) {
+    background-image:url(./media/balls.jpg);
+    background-size: 100%;
+    width: 376px;
+    height: 450px;
+}
+
+.katta_div div h3{
+    margin-top: 334px;
+    width: 376px;
+    height: 76px;
+
+    font-weight: 700;
+    font-style: bold;
+    font-size: 27px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.divv {
+    margin-top: 150px;
+    margin-left: 422px;
+}
+
+.divv img{
+    width: 1076px;
+    height: 654px;
+    background-color: #f7ece1;
+}
+
+.images{
+    margin-top: 150px;
+    margin-left: 312px;
+}
+
+.images img{
+    width: 1296px;
+    height: 523px;
+}
+
+.huge_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.huge_div .image1{
+    margin-left: 312px;
+    width: 526px;
+    height: 455px;
+}
+
+.huge_div .image2{
+    margin-left: 134px;
+    width: 636px;
+    height: 455px;
+
+}
+
+footer{
+    margin-top: 150px;
+    background: #f7ece1;
+    height: 96px;
+}
+
+footer .divclass{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .divclass .ul1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-left: 613px;
+}
+
+footer .divclass .ul1 li{
+    margin-top: 40px;
+}
+
+footer .divclass .ul1 li a{
+    width: 53px;
+    height: 20px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #333333;
+}
+
+footer .divclass .ul2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+margin-left: 107px;
+    gap: 19px;
+}
+
+footer .divclass .ul2 li{
+    margin-top: 40px;
+}
